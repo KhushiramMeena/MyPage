@@ -48,8 +48,8 @@ export const skillsSection: SkillsSectionType = {
         id: getId(),
         title: 'Programming',
         lottie: {
-        light: '/lotties/program2Light.json',
-        dark: '/lotties/program1Dark.json',
+        light: '/lotties/curl-code.json',
+        dark: '/lotties/curl-code2.json',
         },
         points: [
             'Experience in designing user-friendly interfaces with figma',
