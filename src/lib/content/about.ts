@@ -17,5 +17,5 @@ export const aboutSection: AboutSectionType = {
         
     ],
     },
-    img: '/khushirammeena.jpg',
+    img: '/mypic.jpg',
 };

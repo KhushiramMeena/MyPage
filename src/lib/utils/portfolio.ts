@@ -80,7 +80,7 @@ export const aboutSection: AboutSectionType = {
         'SQL'
     ],
   },
-  img: '/Khushiram.jpg',
+  img: '/mypic.jpg',
 };
 
 // * Skills Section

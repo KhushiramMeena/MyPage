@@ -27,7 +27,7 @@ export const seoData = {
     'Khushiram Meena is a Full-Stack Developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
   image:
-    '/khushiram.jpg',
+    '/mypic.jpg',
   url: 'https://KhushiramMeena.vercel.app/',
   keywords: [
    
