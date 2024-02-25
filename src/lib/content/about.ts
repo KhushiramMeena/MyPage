@@ -12,7 +12,7 @@ export const aboutSection: AboutSectionType = {
         'ExpressJs',
         'MongoDB',
         'ReactJs',
-        'Python',
+        'Python (Numpy, Pandas)',
         'SQL'
         
     ],

@@ -1,10 +1,21 @@
 import { ProjectsSectionType } from '@/lib/types/sections'
 import { getId } from '@/lib/utils/helper';
 
+const currentYear: number = new Date().getFullYear()
 
 export const projectsSection: ProjectsSectionType = {
     title: 'my projects',
+    
     projects: [
+        {
+            id: getId(),
+            name: 'New Project on its way! 😊',
+            url: 'comming-soon',
+            repo: 'comming-soon',
+            img: '/project-img/new-project.jpg',
+            year: currentYear,
+            tags: ['with latest tech-stacks'],
+        },
     {
         id: getId(),
         name: 'Job Portal',
@@ -13,6 +24,24 @@ export const projectsSection: ProjectsSectionType = {
         img: '/project-img/p1-job-portal.png',
         year: 2023,
         tags: ['PHP', 'MySQL'],
+    },
+    {
+        id: getId(),
+        name: 'Mini Social Media',
+        url: '/not-hosted',
+        repo: 'https://github.com/KhushiramMeena/mypost',
+        img: '/project-img/mini-social.png',
+        year: 2023,
+        tags: ['React','NodeJs','MongoDB'],
+    },
+    {
+        id: getId(),
+        name: 'Search & Filter',
+        url: 'https://search-and-filter-profiles.vercel.app/',
+        repo: 'https://github.com/KhushiramMeena/SearchAndFilter',
+        img: '/project-img/search-and-filter.png',
+        year: 2024,
+        tags: ['NextJs', 'Tailwind-CSS'],
     },
     {
         id: getId(),
@@ -38,7 +67,7 @@ export const projectsSection: ProjectsSectionType = {
         url: 'https://invc-system.vercel.app/',
         repo: 'https://github.com/KhushiramMeena/Invoice-System',
         img: '/project-img/p4-invoice-sys.png',
-        year: 2022,
+        year: 2023,
         tags: ['React','Redux'],
     },
     {
@@ -47,7 +76,7 @@ export const projectsSection: ProjectsSectionType = {
         url: 'https://density-frontend-nine.vercel.app/',
         repo: 'https://github.com/KhushiramMeena/density-frontend',
         img: '/project-img/p5-animation.png',
-        year: 2022,
+        year: 2023,
         tags: ['React','Next.Js', 'TypeScript'],
     },
     {
@@ -59,86 +88,19 @@ export const projectsSection: ProjectsSectionType = {
         year: 2022,
         tags: ['React', 'CSS'],
     },
-    {
-        id: getId(),
-        name: 'Money Tracker',
-        url: 'https://todo-kv.netlify.app/',
-        repo: 'https://github.com/KhushiramMeena/Money-Tracker',
-        img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
-        year: 2022,
-        tags: ['React', 'Sass', 'JS'],
-    },
-    {
-        id: getId(),
-        name: 'Mini Social Media',
-        url: 'https://weather-kv.netlify.app/',
-        repo: 'https://github.com/KhushiramMeena/weather-app',
-        img: 'https://user-images.githubusercontent.com/68834718/148419702-491fa08d-e520-4e2f-b219-374ec7118b2b.png',
-        year: 2022,
-        tags: ['Html', 'sass', 'JS', 'jQuery'],
-    },
-    {
-        id: getId(),
-        name: 'College Management System',
-        url: 'https://blogr-kv.netlify.app/',
-        repo: 'https://github.com/KhushiramMeena/blogr-landing-page',
-        img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
-        year: 2021,
-        tags: ['html', 'sass', 'JS'],
-    },
+   
+   
+   
     // {
     //     id: getId(),
     //     name: '',
-    //     url: 'https://natours-kv.netlify.app/',
-    //     repo: 'https://github.com/KhushiramMeena/natours',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210223114-b4f64b44-2501-49c9-9fb7-b8e53fe654c6.png',
-    //     year: 2021,
+    //     url: 'hosted link',
+    //     repo: 'git-repo',
+    //     img: 'project-img',
+    //     year: year(int),
     //     tags: ['html', 'sass', 'JS'],
     // },
-    // {
-    //     id: getId(),
-    //     name: 'nexter',
-    //     url: 'https://KhushiramMeena.github.io/nexter/',
-    //     repo: 'https://github.com/KhushiramMeena/nexter',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210224671-5501c5d9-a8d2-4044-a14c-38fb7e46a113.png',
-    //     year: 2021,
-    //     tags: ['html', 'sass'],
-    // },
-    // {
-    //     id: getId(),
-    //     name: 'IP address tracker',
-    //     url: 'https://KhushiramMeena.github.io/ip-address-tracker/',
-    //     repo: 'https://github.com/KhushiramMeena/ip-address-tracker',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210223386-03bcaa20-e649-4b3d-8709-59e42c6d685a.png',
-    //     year: 2021,
-    //     tags: ['html', 'bootstrap', 'JS'],
-    // },
-    // {
-    //     id: getId(),
-    //     name: 'calculator app',
-    //     url: 'https://KhushiramMeena.github.io/calculator-app/',
-    //     repo: 'https://github.com/KhushiramMeena/calculator-app/',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210223825-3b68d696-39c6-490c-9433-f315b7efccbd.png',
-    //     year: 2021,
-    //     tags: ['html', 'CSS', 'JS'],
-    // },
-    // {
-    //     id: getId(),
-    //     name: 'pig game',
-    //     url: 'https://KhushiramMeena.github.io/pig-game/',
-    //     repo: 'https://github.com/KhushiramMeena/pig-game',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210223527-de7fde7a-244e-4db5-8e33-d561afad6084.png',
-    //     year: 2021,
-    //     tags: ['html', 'CSS', 'JS'],
-    // },
-    // {
-    //     id: getId(),
-    //     name: 'bankist marketing',
-    //     url: 'https://KhushiramMeena.github.io/bankist-marketing/',
-    //     repo: 'https://github.com/KhushiramMeena/bankist-marketing',
-    //     img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
-    //     year: 2021,
-    //     tags: ['html', 'CSS', 'JS'],
-    // },
+  
+   
     ],
 };

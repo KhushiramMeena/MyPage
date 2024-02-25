@@ -11,7 +11,7 @@ export const experienceSection: ExperienceSectionType = {
         upto: 'present',
         tasks: [
         'Resolved complex programming and Database queries for global students on the Chegg platform using Computer Science expertise',
-        'Enhanced learning outcomes for over 200+ individuals by resolving mathematics doubts on an online forum',
+        'Enhanced learning outcomes for over 250+ individuals by resolving doubts on an online forum',
         'Lead a cross-functional team of developers and designers in the creation of a SaaS product.',
         
         ],
@@ -36,7 +36,7 @@ export const experienceSection: ExperienceSectionType = {
         upto: 'Aug 2022',
         tasks: [
             "Resolve challenging problems (Moslty Maths)!",
-            "Deliver high-quality solutions.",
+            "Deliver high-quality Mathematics solutions.",
             "Earn rewards through PhotoStudy."
        
         ],

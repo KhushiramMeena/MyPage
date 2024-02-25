@@ -10,7 +10,7 @@ import { slideUp } from '@/styles/animations';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const { cta, subtitle, title, tagline, description, specialText } =
+  const { cta, subtitle, title, tagline, description, specialText,items } =
     heroSection;
 
   const windowWidth = useWindowWidth();
@@ -68,10 +68,13 @@ const Hero = () => {
         animate="show"
         className="font-mono text-xs md:text-sm text-accent"
       >
-        {specialText}
+        {specialText}<br/><br/>
+        {/* {items[0]} &nbsp; {items[1]}
+        <br/>
+        {items[2]} &nbsp; {items[3]} */}
       </motion.p>
 
-      {cta && (
+      {cta && (<>
         <Button
           size="lg"
           type="link"
@@ -86,7 +89,9 @@ const Hero = () => {
         >
           {cta.title}
         </Button>
+        </>
       )}
+
     </Wrapper>
   );
 };

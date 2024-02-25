@@ -14,11 +14,12 @@ export const skillsSection: SkillsSectionType = {
             dark: '/lotties/dev1Dark.json',
         },
         points: [
-            'Building Single Page Apps in React.js, RESTful APIs, responsive static websites using Next.js',
-            'Developed a Money Tracker Web Application enabling users to link their Bank Accounts and analyze Income and Expenses',
-            'Created a Job-Portal website allowing job seekers to filter jobs based on their requirements',
-            'Explore all my projects and work for detailed references.',
-            'https://your-link-here.com', 
+            
+            'Building Single Page web-apps using React.js, RESTful APIs, Next.js, TypeScript',
+            'Created a Mini-social-media web application enabling users to comment, like posts, and engage in private chats',
+            'Created a Job-Portal website allowing job seekers to filter jobs based on their requirements, Admin can handle the job posts',
+            'Explore my all projects and work for detailed references.',
+             
         ],
         softwareSkills: [
           // iconify icons: https://icon-sets.iconify.design/
@@ -52,8 +53,8 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/curl-code2.json',
         },
         points: [
-            'Experience in designing user-friendly interfaces with figma',
-            'Experience in developing design systems and style guides',
+            'In-depth knowledge of Programming languages',
+            'In-depth knowledge of SQL',
         ],
         softwareSkills: [
         { name: 'C', icon: 'devicon:c' },
