@@ -13,7 +13,7 @@ export const socialLinks: StringKeyValueType = {
   geeksforgeeks: 'https://auth.geeksforgeeks.org/user/khushiram1/',
  
   github: 'https://github.com/KhushiramMeena',
-  linkedin: 'https://www.linkedin.com/in/KhushiramMeena/',
+  linkedin: 'https://www.linkedin.com/in/khushiram1/',
 };
 
 export const author = {

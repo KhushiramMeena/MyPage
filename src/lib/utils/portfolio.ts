@@ -348,5 +348,5 @@ export const socialSection: SocialSectionType = {
 
 export const footerSection: FooterSectionType = {
   title: 'Design & Built by Khushiram Meena',
-  link: 'https://github.com/KhushiramMeena/portfolio-website',
+  link: ' ',
 };
