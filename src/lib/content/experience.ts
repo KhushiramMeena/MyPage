@@ -8,7 +8,7 @@ export const experienceSection: ExperienceSectionType = {
         companyUrl: 'https://www.cheggindia.com/',
         role: 'CS Subject Expert',
         started: 'March 2023',
-        upto: 'present',
+        upto: 'Oct 2023',
         tasks: [
         'Resolved complex programming and Database queries for global students on the Chegg platform using Computer Science expertise',
         'Enhanced learning outcomes for over 250+ individuals by resolving doubts on an online forum',

@@ -170,43 +170,43 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
-      company: 'Pixelwand',
-      companyUrl: 'https://www.pixelwand.live/',
-      role: 'frontend developer',
-      started: 'july 2023',
-      upto: 'present',
+      company: 'Chegg India',
+      companyUrl: 'https://www.cheggindia.com/',
+      role: 'CS Subject Expert',
+      started: 'March 2023',
+      upto: 'Oct 2023',
       tasks: [
-        'Implemented UI components with React & Next.js, TypeScript & Tailwind CSS.',
-        'Developed and maintained design systems that separates design logic.',
-        'Understanding client needs and proposing effective solutions, which also involves strategising and planning.',
-        'Lead a cross-functional team of developers and designers in the creation of a SaaS product.',
+      'Resolved complex programming and Database queries for global students on the Chegg platform using Computer Science expertise',
+      'Enhanced learning outcomes for over 250+ individuals by resolving doubts on an online forum',
+      'Lead a cross-functional team of developers and designers in the creation of a SaaS product.',
+      
       ],
-    },
-    {
-      company: 'SHMTH Capital',
-      companyUrl: 'https://shmth.capital/',
-      role: 'frontend developer intern',
-      started: 'april 2023',
-      upto: 'july 2023',
+  },
+  {
+      company: 'Primathink Technologies',
+      companyUrl: 'https://primathink.com/',
+      role: 'Full Stack Developer Intern',
+      started: 'Nov 2022',
+      upto: 'Feb 2023',
       tasks: [
-        'Built trading platform using TradingView library.',
-        'Designed SHMTH Capital website with Next.js, TypeScript & TailwindCSS.',
-        'Collaborated with diverse nationwide team of developers.',
+          "Developed different types of user interfaces.",
+          "Implemented new features into existing projects.",
+          "Worked with HTML, CSS, JavaScript, Bootstrap, React, PHP, and MySQL."
       ],
-    },
-    {
-      company: 'webnetics',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
+  },
+  {
+      company: 'PhotoStudy',
+      companyUrl: 'https://www.photostudy.co/',
+      role: 'Problem Solver',
       started: 'june 2022',
-      upto: 'january 2023',
+      upto: 'Aug 2022',
       tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
+          "Resolve challenging problems (Moslty Maths)!",
+          "Deliver high-quality Mathematics solutions.",
+          "Earn rewards through PhotoStudy."
+     
       ],
-    },
+  },
   ],
 };
 
