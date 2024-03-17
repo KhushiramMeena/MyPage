@@ -3,6 +3,20 @@ import { ExperienceSectionType } from '@/lib/types/sections'
 export const experienceSection: ExperienceSectionType = {
     title: "where i've worked",
     experiences: [
+        {
+            company: 'Ati Motors',
+            companyUrl: 'https://atimotors.com/',
+            role: 'Backend Intern',
+            started: 'March 2024',
+            upto: 'Present',
+            tasks: [
+            'Working on automated testing for backend services, significantly reducing manual testing hours and enhancing code reliability and performance metrics.',
+            'Developing and integrating a monitoring system to track and report resource usage in real-time during software execution',
+         
+            
+            ],
+        },
+
     {
         company: 'Chegg India',
         companyUrl: 'https://www.cheggindia.com/',
