@@ -7,7 +7,7 @@ export const heroSection: HeroSectionType = {
     tagline: '',
     description:
     "I'm a passionate Full-Stack Developer having an experience of creating web applications with React.js, Next.js, TypeScript , Node.Js, MongoDB, PHP and  MySQL.",
-    specialText: "Currently available for a Full-time Job/ Internship",
+    specialText: "Currently available for a Full-time Job!",
     items:[
         'Full Stack Developer',
         'Software Developer',
