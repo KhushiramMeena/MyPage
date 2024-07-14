@@ -46,7 +46,7 @@ export const heroSection: HeroSectionType = {
     "I'm a passionate Full-Stack Developer having an experience of web applications with React.js, Next.js, TypeScript , Node.Js, MongoDB, PHP and  MySQL.",
   // description:
   
-  specialText: 'Currently available for a Full-time Job/internship.',
+  specialText: 'Currently available for a Full-time Job!',
 
   items:[
     'Full Stack Developer',
@@ -309,8 +309,7 @@ export const contactSection: ContactSectionType = {
   title: 'get in touch',
   subtitle: "what's next",
   paragraphs: [
-    'I’m currently looking for a remote job or any new opportunities.',
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    'I’m currently looking for a Full-time job!'
   ],
   link: `mailto:${author.email}`,
 };
