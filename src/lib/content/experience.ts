@@ -6,15 +6,14 @@ export const experienceSection: ExperienceSectionType = {
         {
             company: 'Ati Motors',
             companyUrl: 'https://atimotors.com/',
-            role: 'SDE Intern',
+            role: 'Software Engineer',
             started: 'March 2024',
             upto: 'Present',
             tasks: [
             'Working on automated testing for backend services, significantly reducing manual testing hours and enhancing code reliability and performance metrics.',
             'Developing and integrating a monitoring system to track and report resource usage in real-time during software execution',
-            'Worked with React, Jest, Python, FastAPI, MongoDB, Docker, Coroot and Jaeger',
-         
-            
+            'Working with React, Jest, Typescript, Python, FastAPI, MongoDB, Docker, Coroot and Jaeger',
+            'Collaborating with a team to develop and deploy a new feature in the company’s flagship product',
             ],
         },
 
