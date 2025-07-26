@@ -11,7 +11,7 @@ export const aboutSection: AboutSectionType = {
         'FastAPI',
         'WebSockets',
         'Redis',
-        'Python (NumPy, Pandas)',
+        'Python',
         'SQL',
         'MongoDB',
         'PostgreSQL',
