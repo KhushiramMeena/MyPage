@@ -19,16 +19,16 @@ const Skills = () => {
       <div className="space-y-32">
         
         {skills.map(({ id, lottie, softwareSkills, points, title }) => (
-          <Skill
+            <Skill
             key={id}
-            className="odd:lg:flex-row-reverse"
-            lottie={lottie[isDarkMode ? 'dark' : 'light']}
-            skills={softwareSkills}
-            points={points}
-            title={title}
-            {...getSectionAnimation}
-            
-          />
+              className="odd:lg:flex-row-reverse"
+              lottie={lottie[isDarkMode ? 'dark' : 'light']}
+              skills={softwareSkills}
+              points={points}
+              title={title}
+              {...getSectionAnimation}
+              
+            />
         ))}
 
 

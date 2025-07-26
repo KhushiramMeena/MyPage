@@ -6,8 +6,8 @@ export const heroSection: HeroSectionType = {
     title: 'Khushiram Meena',
     tagline: '',
     description:
-    "I'm a passionate Full-Stack Developer having an experience of creating web applications with React.js, Next.js, TypeScript , Node.Js, MongoDB, PHP and  MySQL.",
-    specialText: "Currently available for a Full-time Job!",
+    "I'm a Software Engineer with experience building real-time systems, scalable web applications, and user-focused platforms across diverse domains.",
+    specialText: "Currently open to Full-time opportunities!",
     items:[
         'Full Stack Developer',
         'Software Developer',

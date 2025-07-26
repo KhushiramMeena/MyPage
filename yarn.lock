@@ -150,10 +150,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/swc-win32-x64-msvc@13.5.3":
+"@next/swc-linux-x64-gnu@13.5.3":
   version "13.5.3"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.5.3.tgz"
-  integrity sha512-2Vz2tYWaLqJvLcWbbTlJ5k9AN6JD7a5CN2pAeIzpbecK8ZF/yobA39cXtv6e+Z8c5UJuVOmaTldEAIxvsIux/Q==
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.5.3.tgz"
+  integrity sha512-FubPuw/Boz8tKkk+5eOuDHOpk36F80rbgxlx4+xty/U71e3wZZxVYHfZXmf0IRToBn1Crb8WvLM9OYj/Ur815g==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

@@ -24,19 +24,12 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Khushiram Meena, Full-Stack Developer who wants to explore every tech stack.
+          Hi, I'm Khushiram Meena — a Software Engineer with a strong foundation in computer science and a passion for building real-time, user-centric applications.
           </p>
           <p>
-            I'm open to work as  -{' '}
-            {/* <Link
-              href="https://www.pixelwand.live/"
-              target="_blank"
-              className="text-accent"
-            >
-              Pixelwand
-            </Link> */}
+           I'm open to work as a :-{' '}
             <p>
-            <i className="text-accent">Frontend Developer</i>, <i className="text-accent">Backend Developer</i>, <i className="text-accent">Software Developer</i>, <i className="text-accent">Data Engineer</i>
+            <i className="text-accent">Frontend Developer</i>, <i className="text-accent">Backend Developer</i>, <i className="text-accent">Full-Stack Developer</i>, <i className="text-accent">DevOps Engineer</i>
             </p>
           </p>
 

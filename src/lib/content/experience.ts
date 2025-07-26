@@ -4,18 +4,23 @@ export const experienceSection: ExperienceSectionType = {
     title: "where i've worked",
     experiences: [
         {
-            company: 'Ati Motors',
-            companyUrl: 'https://atimotors.com/',
-            role: 'Software Engineer',
-            started: 'March 2024',
-            upto: 'Present',
-            tasks: [
-            'Working on automated testing for backend services, significantly reducing manual testing hours and enhancing code reliability and performance metrics.',
-            'Developing and integrating a monitoring system to track and report resource usage in real-time during software execution',
-            'Working with React, Jest, Typescript, Python, FastAPI, MongoDB, Docker, Coroot and Jaeger',
-            'Collaborating with a team to develop and deploy a new feature in the company’s flagship product',
-            ],
-        },
+        company: 'Ati Motors',
+        companyUrl: 'https://atimotors.com/',
+        role: 'Software Engineer',
+        started: 'March 2024',
+        upto: 'Present',
+        tasks: [
+            'Engineered a real-time Teleoperation (TeleOps) system using WebRTC, reducing video streaming latency by over 40%, enabling seamless remote AMR control.',
+            'Developed a secure Remote Terminal for AMR diagnostics using WebSockets and Google Authenticator, enhancing system access control and operational safety.',
+            'Integrated 2D rendering of 3D LiDAR point clouds into the frontend, boosting remote situational awareness and improving operator response time.',
+            'Revamped the Map Editor with Zustand state management and precision tools like a Grid View and Ruler, increasing editing speed and usability by 50%.',
+            'Built an automated health monitoring pipeline using Prometheus and Coroot, enabling real-time Slack alerts and improving incident response time by 30%.',
+            'Reduced debugging effort by 45% by profiling backend APIs with Amazon CodeGuru and Jaeger, identifying memory leaks and performance bottlenecks.',
+            'Collaborated on deploying scalable containerized services with Docker and Kubernetes, improving release cycles and system reliability across clusters.',
+            'Worked with a cross-functional team to ship new features using React, FastAPI, TypeScript, MongoDB, and Redis, ensuring smooth frontend-backend integration.',
+        ]
+        }
+        ,
 
     {
         company: 'Chegg India',

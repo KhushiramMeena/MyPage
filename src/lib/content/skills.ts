@@ -15,10 +15,11 @@ export const skillsSection: SkillsSectionType = {
         },
         points: [
             
-            'Building Single Page web-apps using React.js, RESTful APIs, Next.js, TypeScript',
-            'Created a Mini-social-media web application enabling users to comment, like posts, and engage in private chats',
-            'Created a Job-Portal website allowing job seekers to filter jobs based on their requirements, Admin can handle the job posts',
-            'Explore my all projects and work for detailed references.',
+            'Built Single Page Applications (SPAs) using React.js, Next.js, TypeScript, MUI, and FastAPI, integrated with databases like MongoDB and PostgreSQL.',
+            'Developed a mini social media platform with features like post reactions, comments, and private chat functionality.',
+            'Created a full-stack Job Portal with admin controls, dynamic job filtering, and real-time Telegram integration to improve user engagement and content delivery.',
+            'Built an Online Test Conducting System with role-based access (admin, teacher, student), responsive dashboards, and efficient test workflows.',
+            'Explore all my projects to see detailed implementations, live previews, and GitHub repositories.'
              
         ],
         softwareSkills: [
@@ -53,8 +54,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/curl-code2.json',
         },
         points: [
-            'In-depth knowledge of Programming languages',
-            'In-depth knowledge of SQL',
+            ' Strong foundation in core programming concepts with hands-on experience in writing clean, efficient, and scalable code.',
+            'Proficient in multiple languages including C++, Python, JavaScript, and Java, with practical use in real-world projects and systems.',
+            'Experienced in writing optimized SQL queries and working with relational databases like PostgreSQL and MySQL.',
         ],
         softwareSkills: [
         { name: 'C', icon: 'devicon:c' },

@@ -2,20 +2,28 @@ import { AboutSectionType } from '@/lib/types/sections'
 
 export const aboutSection: AboutSectionType = {
     title: 'about me',
-    // Paragraphs need to be changed from containers/About.tsx
-    // Because it wasn't possible to insert anchor tags like this
     list: {
     title: "Currently i'm working with below technologies:",
     items: [
-        'NodeJs',
+        'React.js',
         'TypeScript',
-        'ExpressJs',
+        'Material UI (MUI)',
+        'FastAPI',
+        'WebSockets',
+        'Redis',
+        'Python (NumPy, Pandas)',
+        'SQL',
         'MongoDB',
-        'ReactJs',
-        'Python (Numpy, Pandas)',
-        'SQL'
-        
-    ],
+        'PostgreSQL',
+        'MySQL',
+        'Docker',
+        'Kubernetes',
+        'Prometheus',
+        'Grafana',
+        'Coroot',
+        'Amazon CodeGuru',
+        'AWS EC2, S3'
+      ],
     },
     img: '/mypic.jpg',
 };
