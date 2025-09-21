@@ -10,7 +10,7 @@ import { slideUp } from '@/styles/animations';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const { cta, subtitle, title, tagline, description, specialText,items } =
+  const { cta, subtitle, title, tagline, description, specialText } =
     heroSection;
 
   const windowWidth = useWindowWidth();

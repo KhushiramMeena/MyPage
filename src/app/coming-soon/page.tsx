@@ -1,13 +1,13 @@
 'use client';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { Icon } from '@iconify/react';
-
 import { ShowLottie, Wrapper } from '@/components';
+
 import { slideUp } from '@/styles/animations';
 
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
 // Import a relevant Lottie animation
-import buildingAnimation from '/public/lotties/build.json';
+const buildingAnimation = '/lotties/build.json';
 
 const ComingSoonPage = () => {
   const getAnimationDelay = (i: number, increment = 0.15) => 0.3 + increment * i;
