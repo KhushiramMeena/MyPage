@@ -44,10 +44,19 @@ const ProjectCard = ({
             className="object-cover w-full h-full transition-all duration-300 group-hover:scale-110 group-focus:scale-110"
           />
         </div>
-        <div className="p-4 py-3 space-y-1">
-          <div className="flex items-center justify-between">
-            <p className="font-mono text-xs capitalize">{tags.join(' | ')}</p>
-            <div className="flex items-center space-x-1.5">
+        <div className="p-4 py-3 space-y-2">
+          <div className="flex items-start justify-between gap-2">
+            <div className="flex flex-wrap gap-1 flex-1 min-w-0">
+              {tags.map((tag, index) => (
+                <span 
+                  key={index}
+                  className="font-mono text-xs capitalize px-2 py-1 bg-accent/10 text-accent rounded-md whitespace-nowrap"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+            <div className="flex items-center space-x-1.5 flex-shrink-0">
               <a
                 href={repo}
                 className="block duration-200 hover:text-accent"
