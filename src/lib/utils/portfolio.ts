@@ -13,6 +13,7 @@ import {
 
 import { resumeFileName } from './config';
 import { getId } from './helper';
+const currentYear: number = new Date().getFullYear()
 
 /*
  * =========================
@@ -218,12 +219,30 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
         id: getId(),
-        name: 'New Project on its way! 😊',
+        name: 'Transforming Ideas into Impact! 😊',
         url: 'comming-soon',
         repo: 'comming-soon',
         img: '/project-img/new-project.jpg',
-        year: 2024,
+        year: currentYear,
         tags: ['with latest tech-stacks'],
+    },
+    {
+        id: getId(),
+        name: 'SaaS dashboard',
+        url: 'https://dashboard-omega-eight-86.vercel.app/',
+        repo: 'https://github.com/KhushiramMeena/dashboard',
+        img: '/project-img/dashboard.png',
+        year: 2025,
+        tags: ['React', 'TypeScript', 'CSS', 'MUI'],
+    },
+    {
+        id: getId(),
+        name: 'RAG chatbot(for News Articles)',
+        url: 'https://rag-chatbot-hglp.onrender.com/',
+        repo: 'https://github.com/KhushiramMeena/RAG-Chatbot-backend',
+        img: '/project-img/chatbot.png',
+        year: 2025,
+        tags: ['Node.Js', 'React.Js', 'PostgreSQL', 'Redis'],
     },
 {
     id: getId(),
@@ -240,7 +259,7 @@ export const projectsSection: ProjectsSectionType = {
     url: '/not-hosted',
     repo: 'https://github.com/KhushiramMeena/mypost',
     img: '/project-img/mini-social.png',
-    year: 2023,
+    year: 2024,
     tags: ['React','NodeJs','MongoDB'],
 },
 {
@@ -296,9 +315,22 @@ export const projectsSection: ProjectsSectionType = {
     img: '/project-img/p6-weather.png',
     year: 2022,
     tags: ['React', 'CSS'],
-}
+},
 
-  ]
+
+
+// {
+//     id: getId(),
+//     name: '',
+//     url: 'hosted link',
+//     repo: 'git-repo',
+//     img: 'project-img',
+//     year: year(int),
+//     tags: ['html', 'sass', 'JS'],
+// },
+
+
+]
 
 
 };
