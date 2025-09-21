@@ -10,8 +10,8 @@ export const projectsSection: ProjectsSectionType = {
         {
             id: getId(),
             name: 'Transforming Ideas into Impact! 😊',
-            url: 'comming-soon',
-            repo: 'comming-soon',
+            url: 'coming-soon',
+            repo: 'coming-soon',
             img: '/project-img/new-project.jpg',
             year: currentYear,
             tags: ['with latest tech-stacks'],
