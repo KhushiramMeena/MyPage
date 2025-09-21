@@ -44,6 +44,8 @@ export const skillsSection: SkillsSectionType = {
         { name: 'PHP', icon: 'skill-icons:php-dark' },
         { name: 'MySQL', icon: 'logos:mysql' },
         { name: 'MongoDB', icon: 'logos:mongodb-icon' },
+        { name: 'Docker', icon: 'logos:docker-icon' },
+        { name: 'Kubernetes', icon: 'logos:kubernetes' },
         ],
     },
     {
